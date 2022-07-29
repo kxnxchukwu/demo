@@ -10,7 +10,7 @@ export const AboutPage = () => {
         <Col className="d-flex align-items-center">
           <div className="d-block mx-auto">
             <h1 className="h1">About Us</h1>
-            <p className="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.
+            <p className="lead">RecordsMatch is a global music streaming platform bringing fans closer to artists through unique experiences and the highest sound quality..
             </p>
           </div>
         </Col>

@@ -16,13 +16,12 @@ export const HomePage = () => {
           <div className="d-block">
             <h1 className="h1">Music is Life</h1>
             <p className="lead">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that.
+            What's next in music is first on RecordsMatch
+Upload your first track and begin your journey. RecordsMatch gives you space to showcase, find your fans, and connect with talent managers.
             </p>
-            <Button variant="outline-secondary">Sign In</Button>
+            <Link to="/signin" className="btn btn-outline-secondary">Sign In</Link>
             {"  "}
-            <Button variant="outline-secondary">Create Profile</Button>
+            <Link to="/create" className="btn btn-outline-secondary">Create Profile</Link>
           </div>
         </Col>
         <Col>
@@ -40,9 +39,9 @@ export const HomePage = () => {
           </Link>
         </Col>
         <Col className="mt-4 d-flex justify-content-between" lg="12">
-          <Category />
-          <Category />
-          <Category />
+          <Category title="Hip-Hop/Rap"/>
+          <Category title="Pop" />
+          <Category title="Rock" />
         </Col>
       </Row>
       <Row className="m-2 d-flex flex-column">

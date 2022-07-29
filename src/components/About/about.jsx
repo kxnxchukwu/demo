@@ -17,7 +17,7 @@ export const AboutPage = () => {
         <Col>
           <img
             src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png"
-            alt="Banner Image"
+            alt="Background Containing Artists"
             width={"600px"}
             height={"500px"}
           />

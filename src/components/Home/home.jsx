@@ -28,7 +28,7 @@ export const HomePage = () => {
         <Col>
           <img
             src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659046936/banner_oiqnkm.png"
-            alt="Banner Image"
+            alt="Background Containing Artists"
           />
         </Col>
       </Row>
@@ -53,10 +53,10 @@ export const HomePage = () => {
           </Link>
         </Col>
         <Col className="mt-4 d-flex justify-content-between" lg="12">
-            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
+            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Explore Background" />
+            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Explore Background" />
+            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Explore Background" />
+            <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Explore Background" />
         </Col>
       </Row>
       <Row className="m-2 d-flex flex-column">
@@ -67,10 +67,10 @@ export const HomePage = () => {
           </Link>
         </Col>
         <Col className="mt-4 d-flex justify-content-between" lg="12">
-        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
-        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Image" />
+        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Artists to Watch Background" />
+        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Artists to Watch Background" />
+        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Artists to Watch Background" />
+        <img src="https://res.cloudinary.com/kxnxchukwu/image/upload/v1659048426/card_n9y2cf.png" alt="Artists to Watch Background" />
         </Col>
       </Row>
       <Row className="m-2 d-flex flex-column">

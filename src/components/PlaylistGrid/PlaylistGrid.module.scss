@@ -1,0 +1,108 @@
+:root {
+    --black: #121212;
+    --near-black: #181818;
+    --dark-grey: #282828;
+    --grey: #535353;
+    --light-grey: #b3b3b3;
+    --white: #ffffff;
+    --green: #1DB954;
+
+    --font: 'Circular Std', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+    --fz-xxs: 12px;
+    --fz-xs: 13px;
+    --fz-sm: 14px;
+    --fz-md: 16px;
+    --fz-lg: 18px;
+    --fz-xl: 20px;
+    --fz-xxl: 24px;
+
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+
+    --border-radius-subtle: 4px;
+    --border-radius-pill: 30px;
+
+    --site-max-width: 1300px;
+  }
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .track__item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20px 1fr;
+    grid-gap: var(--spacing-md);
+    padding: var(--spacing-xs);
+    color: var(--light-grey);
+    font-size: var(--fz-sm);
+    border-radius: var(--border-radius-subtle);
+    transition: background-color 0.3s ease;
+    cursor: default;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 20px 4fr 2fr minmax(60px, 1fr);
+      padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    &:hover,
+    &:focus {
+      background-color: #282828;
+    }
+  }
+
+  .track__item__num {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: var(--fz-md);
+    font-variant-numeric: tabular-nums;
+    overflow: visible;
+  }
+
+  .track__item__title-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .track__item__img {
+    margin-right: 12px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color:#282828;
+  }
+
+  .track__item__name {
+    color: black;
+    font-size: var(--fz-md);
+  }
+
+  .track__item__album {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+      white-space: nowrap;
+    }
+  }
+
+  .track__item__duration {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-end;
+      font-variant-numeric: tabular-nums;
+    }
+  }
+}

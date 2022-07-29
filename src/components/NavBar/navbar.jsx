@@ -2,6 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 
 
 export const NavBar = () => {
@@ -11,11 +12,31 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">Logo</Navbar.Brand>
           <Nav className="justify-content-end flex-grow-1 pe-3">
-            <Nav.Link className="btn-outline-secondary" href="/">Home</Nav.Link>
-            <Nav.Link className="btn-outline-secondary" href="/blog">Blog</Nav.Link>
-            <Nav.Link className="btn-outline-secondary"  href="/about">About Us</Nav.Link>
-            <Nav.Link className="btn-outline-secondary" href="/signin">Sign In</Nav.Link>
-            <Nav.Link className="btn-outline-secondary" href="/create">Create Profile</Nav.Link>
+            <Nav.Link className="btn-outline-secondary">
+            <Link className="text-decoration-none text-muted" to="/">
+                Home
+            </Link>
+            </Nav.Link>
+            <Nav.Link className="btn-outline-secondary">
+            <Link className="text-decoration-none text-muted" to="/blog">
+                Blog
+            </Link>
+            </Nav.Link>
+            <Nav.Link className="btn-outline-secondary">
+            <Link className="text-decoration-none text-muted" to="/about">
+                About Us
+            </Link>
+            </Nav.Link>
+            <Nav.Link className="btn-outline-secondary">
+            <Link className="text-decoration-none text-muted" to="/signin">
+                Sign In
+            </Link>
+            </Nav.Link>
+            <Nav.Link className="btn-outline-secondary">
+            <Link className="text-decoration-none text-muted" to="/create">
+                Create Profile
+            </Link>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

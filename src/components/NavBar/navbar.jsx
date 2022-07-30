@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 export const NavBar = () => {
 
     return (
-        <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="/">RecordsMatch</Navbar.Brand>
+        <Navbar bg="warning" variant="light">
+        <Container fluid>
+          <Navbar.Brand className="h1" href="/">RecordsMatch</Navbar.Brand>
           <Nav className="justify-content-end flex-grow-1 pe-3">
             <Nav.Link className="btn-outline-secondary">
             <Link className="text-decoration-none text-muted" to="/">

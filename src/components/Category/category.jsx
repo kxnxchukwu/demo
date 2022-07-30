@@ -1,8 +1,11 @@
 import React from "react";
 import { CardComponent } from "../Card/card";
 
-export const Category = ({title}) => {
+export const Category = ({title, imgUrl}) => {
     return(
-    <CardComponent title={title}/>
+    <CardComponent 
+    title={title}
+    imgUrl={imgUrl}
+    />
     );
 }

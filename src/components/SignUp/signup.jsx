@@ -35,7 +35,7 @@ export const SignUpPage = () => {
         </Form.Group>
 
         <div className="d-grid gap-2">
-        <Button variant="outline-secondary" type="submit" lg={12}>
+        <Button variant="outline-warning" type="submit" lg={12}>
           Sign Up
         </Button>
         </div>
